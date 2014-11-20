@@ -1,0 +1,30 @@
+{
+  "name": "deepobserve",
+  "version": "1.0.0",
+  "description": "Crazy small model to emit events when deep changes happen on #set",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/tap test/*.js"  
+    },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanstevens/deepobserve.git"
+  },
+  "keywords": [
+    "model",
+    "deep",
+    "compare"
+  ],
+  "author": "Ryan Stevens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanstevens/deepobserve/issues"
+  },
+  "homepage": "https://github.com/ryanstevens/deepobserve",
+  "dependencies": {
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "tap": "^0.4.13"
+  }
+}
